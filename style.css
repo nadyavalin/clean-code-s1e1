@@ -27,7 +27,9 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.add-task__input, .task__label, .task__input {
+.add-task__input,
+.task__label,
+.task__input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -43,10 +45,13 @@ ul {
 li {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
-.add-task__button, .task__edit-button, .task__delete-button {
+.add-task__button,
+.task__edit-button,
+.task__delete-button {
   background: none;
   border: 0px;
   color: #888;
@@ -55,7 +60,9 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.add-task__button:hover, .task__edit-button:hover, .task__delete-button:hover {
+.add-task__button:hover,
+.task__edit-button:hover,
+.task__delete-button:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -68,7 +75,8 @@ h3 {
   margin: 0;
   text-transform: uppercase;
 }
-.add-task__input, .task__input {
+.add-task__input,
+.task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,7 +88,8 @@ h3 {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.add-task__input:focus, .task__input:focus {
+.add-task__input:focus,
+.task__input:focus {
   color: #333;
 }
 
